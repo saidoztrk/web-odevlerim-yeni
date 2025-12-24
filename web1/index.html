@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html lang="tr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Said Öztürk | Portfolio</title>
+    <link rel="stylesheet" href="/src/styles/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+
+<body>
+    <!-- Header -->
+    <header id="header">
+        <nav class="navbar">
+            <div class="container">
+                <h1 class="logo">Said<span>Öztürk</span></h1>
+                <ul class="nav-menu">
+                    <li><a href="#home">Ana Sayfa</a></li>
+                    <li><a href="#about">Hakkımda</a></li>
+                    <li><a href="#skills">Yetenekler</a></li>
+                    <li><a href="#projects">Projeler</a></li>
+                    <li><a href="#contact">İletişim</a></li>
+                </ul>
+                <button class="hamburger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-bg"></div>
+        <div class="container">
+            <div class="hero-content">
+                <div class="hero-text">
+                    <span class="hero-greeting">Merhaba, Ben</span>
+                    <h1 class="hero-title">Said Öztürk</h1>
+                    <p class="hero-subtitle">
+                        <span class="typing-text">Web Developer</span>
+                    </p>
+                    <p class="hero-description">
+                        Modern web teknolojileri ile kullanıcı dostu ve responsive
+                        web uygulamaları geliştiriyorum. React, JavaScript ve backend
+                        teknolojilerinde deneyimliyim.
+                    </p>
+                    <div class="hero-buttons">
+                        <a href="#projects" class="btn btn-primary">
+                            <i class="fas fa-briefcase"></i> Projelerimi Gör
+                        </a>
+                        <a href="#contact" class="btn btn-secondary">
+                            <i class="fas fa-envelope"></i> İletişime Geç
+                        </a>
+                    </div>
+                    <div class="hero-social">
+                        <a href="https://github.com/saidoztrk" target="_blank" class="social-icon">
+                            <i class="fab fa-github"></i>
+                        </a>
+                        <a href="https://www.linkedin.com/in/ozturk-said/" target="_blank" class="social-icon">
+                            <i class="fab fa-linkedin"></i>
+                        </a>
+                        <a href="mailto:saidmanisa6@gmail.com" class="social-icon">
+                            <i class="fas fa-envelope"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="hero-image">
+                    <div class="image-wrapper">
+                        <img src="/src/assets/images/indir2.jpg" alt="Said Öztürk">
+                        <div class="image-border"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="scroll-down">
+            <a href="#about">
+                <i class="fas fa-chevron-down"></i>
+            </a>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">Hakkımda</span>
+                <h2 class="section-title">Kimim & Ne Yapıyorum?</h2>
+            </div>
+            <div class="about-content">
+                <div class="about-image">
+                    <div class="about-img-wrapper">
+                        <img src="/src/assets/images/indir2.jpg" alt="Said Öztürk">
+                        <div class="experience-badge">
+                            <span class="badge-number">2+</span>
+                            <span class="badge-text">Yıllık<br>Deneyim</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="about-text">
+                    <h3>Bilgisayar Mühendisliği Öğrencisi</h3>
+                    <p>
+                        CENG 307 dersi kapsamında web teknolojileri üzerine çalışmalar yapıyorum.
+                        Modern web geliştirme araçları ve framework'leri kullanarak kullanıcı deneyimini
+                        ön planda tutan projeler geliştirmeyi seviyorum.
+                    </p>
+                    <p>
+                        Frontend ve backend teknolojilerinde kendimi geliştirirken, temiz kod yazma
+                        prensipleri ve en iyi pratikleri uygulama konusunda özen gösteriyorum.
+                    </p>
+
+                    <div class="about-info">
+                        <div class="info-item">
+                            <i class="fas fa-envelope"></i>
+                            <div>
+                                <span class="info-label">Email</span>
+                                <span class="info-value">saidmanisa6@gmail.com</span>
+                            </div>
+                        </div>
+                        <div class="info-item">
+                            <i class="fas fa-graduation-cap"></i>
+                            <div>
+                                <span class="info-label">Eğitim</span>
+                                <span class="info-value">Bilgisayar Mühendisliği</span>
+                            </div>
+                        </div>
+                        <div class="info-item">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <div>
+                                <span class="info-label">Konum</span>
+                                <span class="info-value">Türkiye</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <a href="#contact" class="btn btn-primary mt-20">
+                        <i class="fas fa-download"></i> CV İndir
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">Yetenekler</span>
+                <h2 class="section-title">Teknik Becerilerim</h2>
+            </div>
+            <div class="skills-grid">
+                <div class="skill-card">
+                    <div class="skill-icon">
+                        <i class="fas fa-code"></i>
+                    </div>
+                    <h3>Frontend Development</h3>
+                    <p>Modern ve responsive kullanıcı arayüzleri tasarlıyorum</p>
+                    <ul class="skill-list">
+                        <li><i class="fas fa-check"></i> HTML5 & CSS3</li>
+                        <li><i class="fas fa-check"></i> JavaScript (ES6+)</li>
+                        <li><i class="fas fa-check"></i> React.js</li>
+                        <li><i class="fas fa-check"></i> Tailwind CSS</li>
+                    </ul>
+                </div>
+
+                <div class="skill-card">
+                    <div class="skill-icon">
+                        <i class="fas fa-server"></i>
+                    </div>
+                    <h3>Backend Development</h3>
+                    <p>Güçlü ve ölçeklenebilir API'ler geliştiriyorum</p>
+                    <ul class="skill-list">
+                        <li><i class="fas fa-check"></i> Node.js</li>
+                        <li><i class="fas fa-check"></i> Express.js</li>
+                        <li><i class="fas fa-check"></i> MongoDB</li>
+                        <li><i class="fas fa-check"></i> RESTful APIs</li>
+                    </ul>
+                </div>
+
+                <div class="skill-card">
+                    <div class="skill-icon">
+                        <i class="fas fa-tools"></i>
+                    </div>
+                    <h3>Araçlar & Teknolojiler</h3>
+                    <p>Modern geliştirme araçlarını kullanıyorum</p>
+                    <ul class="skill-list">
+                        <li><i class="fas fa-check"></i> Git & GitHub</li>
+                        <li><i class="fas fa-check"></i> VS Code</li>
+                        <li><i class="fas fa-check"></i> Figma</li>
+                        <li><i class="fas fa-check"></i> Postman</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">Projeler</span>
+                <h2 class="section-title">Son Çalışmalarım</h2>
+            </div>
+            <div class="projects-grid" id="projectsGrid"></div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">İletişim</span>
+                <h2 class="section-title">Benimle İletişime Geçin</h2>
+            </div>
+            <div class="contact-content">
+                <div class="contact-info-cards">
+                    <div class="contact-card">
+                        <div class="contact-icon">
+                            <i class="fas fa-envelope"></i>
+                        </div>
+                        <h3>Email</h3>
+                        <p>saidmanisa6@gmail.com</p>
+                        <a href="mailto:saidmanisa6@gmail.com" class="contact-link">Mail Gönder</a>
+                    </div>
+
+                    <div class="contact-card">
+                        <div class="contact-icon">
+                            <i class="fab fa-github"></i>
+                        </div>
+                        <h3>GitHub</h3>
+                        <p>@saidoztrk</p>
+                        <a href="https://github.com/saidoztrk" target="_blank" class="contact-link">Profili
+                            Görüntüle</a>
+                    </div>
+
+                    <div class="contact-card">
+                        <div class="contact-icon">
+                            <i class="fab fa-linkedin"></i>
+                        </div>
+                        <h3>LinkedIn</h3>
+                        <p>Said Öztürk</p>
+                        <a href="https://www.linkedin.com/in/ozturk-said/" target="_blank" class="contact-link">Bağlantı
+                            Kur</a>
+                    </div>
+                </div>
+
+                <div class="contact-form-wrapper">
+                    <form class="contact-form" id="contactForm">
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label>Adınız</label>
+                                <input type="text" placeholder="Adınız Soyadınız" required>
+                            </div>
+                            <div class="form-group">
+                                <label>Email</label>
+                                <input type="email" placeholder="email@example.com" required>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label>Konu</label>
+                            <input type="text" placeholder="Mesajınızın konusu" required>
+                        </div>
+                        <div class="form-group">
+                            <label>Mesajınız</label>
+                            <textarea placeholder="Mesajınızı buraya yazın..." rows="6" required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary btn-block">
+                            <i class="fas fa-paper-plane"></i> Mesaj Gönder
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-left">
+                    <h3>Said<span>Öztürk</span></h3>
+                    <p>Web Developer & Designer</p>
+                </div>
+                <div class="footer-social">
+                    <a href="https://github.com/saidoztrk" target="_blank"><i class="fab fa-github"></i></a>
+                    <a href="https://www.linkedin.com/in/ozturk-said/" target="_blank"><i
+                            class="fab fa-linkedin"></i></a>
+                    <a href="mailto:saidmanisa6@gmail.com"><i class="fas fa-envelope"></i></a>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 Said Öztürk. Tüm hakları saklıdır.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script type="module" src="/src/components/header.js"></script>
+    <script type="module" src="/src/components/projects.js"></script>
+</body>
+
+</html>
